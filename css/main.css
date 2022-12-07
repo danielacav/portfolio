@@ -1,0 +1,25 @@
+:root {
+    --bs-primary:#2C3064;
+    --bs-primary-rgb:44, 48, 100;
+    --bs-body-color:var(--bs-primary);
+    --bs-text-primary:var(--bs-primary);
+
+    --bs-secondary:#D64D55;
+    --bs-secondary-rgb:214, 77, 85;
+    --bs-text-secondary:var(--bs-secondary);
+
+    --bs-info:#D9D9D9;
+    --bs-info-rgb:217, 217, 217;
+
+    --bs-font-sans-serif:"Raleway";
+    --bs-link-color: var (--bs-secondary);
+    --bs-link-hover-color: #0a58ca;
+}
+
+
+/*Top nav color*/
+
+.nav-item {
+    font-family: "Bebas Neue";
+    font-size: 1.5rem;
+}
