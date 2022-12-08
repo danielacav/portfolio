@@ -36,7 +36,7 @@
                             <a class="nav-link link-secondary" href="/work.html">Work</a>
                         </li>
                         <li class="nav-item px-2">
-                            <a class="nav-link link-secondary" href="/services.html">Services</a>
+                            <a class="nav-link link-secondary active" role="button" aria-pressed="true" href="/services.html">Services</a>
                         </li>
                         <li class="nav-item px-2">
                             <a class="nav-link link-secondary" href="/about.html">About</a>
@@ -48,7 +48,7 @@
     </nav>
  <!--Main section-->
     <div class="container-xl wrapper mt-5">
-        <main class="container-fluid px-5 d-flex flex-column gap-4">
+        <main class="container-fluid px-5 d-flex flex-column gap-4 justify-content-center">
             <div>
                 <h2 class="display-2">My workflow</h2>
             </div>
@@ -63,7 +63,27 @@
                 </ol>
             </div>
             <!--Cards with services-->
-            <div>
+            <div class="card-group text-start">
+                <div class="card border-0 p-4 bg-secondary text-light justify-content-start">
+                    <h3 class="card-title">User Interface (UI)</h3>
+                    <p class="card-text"> Creation of high fidelity prototypes, definition of the user journey and your project's website or app architecture.</p>
+                    <a class="btn btn-link p-0 text-start text-decoration-none" href="work.html">Related projects <i class="fa-solid fa-arrow-right"></i></a>
+                </div> <!--Closes card-->
+                <div class="card border-0 p-4 bg-primary text-light justify-content-start">
+                    <h3 class="card-title">Graphic Design</h3>
+                    <p class="card-text"> Brand - Logo - Editorial - brochures - Infographics - Flyers and graphic work needed for printing or digital purposes.</p>
+                    <a class="btn btn-link p-0 text-start text-decoration-none" href="work.html">Related projects <i class="fa-solid fa-arrow-right"></i></a>
+                </div> <!--Closes card-->
+                <div class="card border-0 p-4 bg-dark text-light justify-content-start">
+                    <h3 class="card-title">Experience & Service Design</h3>
+                    <p class="card-text"> The definition of your service, customer journey, blueprint, and the user experience are all part of this process.</p>
+                    <a class="btn btn-link p-0 text-start text-decoration-none" href="work.html">Related projects <i class="fa-solid fa-arrow-right"></i></a>
+                </div> <!--Closes card-->
+            </div><!--Closes group of cards-->
+
+            <div class="d-flex flex-column text-center">
+                <span>Do you like what you see?</span>
+                <a href="/contact.html" class="display-6 text-primary text-secondary">Let's Talk</a>
             </div>
         </main>
 
