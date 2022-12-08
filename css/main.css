@@ -17,9 +17,32 @@
 }
 
 
-/*Top nav color*/
+/*Sets font family*/
 
 .nav-item {
     font-family: "Bebas Neue";
     font-size: 1.5rem;
 }
+
+.text-info {
+    font-family: "Bebas Neue";
+    font-size: 1.5rem;
+}
+
+/*Hides overlay and makes it visible only when hovering over the card*/
+
+.info {
+    opacity: 0;
+    transition: 0.2s ease;
+
+}
+
+.card:hover .info {
+    opacity: 1;
+
+}
+
+h5, h4, h3, h2 {
+    font-family: "Bebas Neue";
+}
+
