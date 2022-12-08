@@ -12,8 +12,11 @@
     --bs-info-rgb:217, 217, 217;
 
     --bs-font-sans-serif:"Raleway";
-    --bs-link-color: var (--bs-secondary);
-    --bs-link-hover-color: #0a58ca;
+    --bs-link-color: none;
+    --bs-link-hover-color: none;
+
+    --bs-btn-hover-color: var(--bs-primary);
+    --bs-btn-active-color: var(--bs-link-hover-color);
 }
 
 
@@ -21,7 +24,9 @@
 
 .nav-item {
     font-family: "Bebas Neue";
-    font-size: 1.5rem;
+    font-size: 1rem;
+    letter-spacing: 0.15rem;
+
 }
 
 .text-info {
@@ -46,3 +51,18 @@ h5, h4, h3, h2 {
     font-family: "Bebas Neue";
 }
 
+/*Button styling*/
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-weight:bold;
+}
+
+
+.period {
+    font-family: "Bebas Neue";
+    letter-spacing: 0.15rem;
+}
