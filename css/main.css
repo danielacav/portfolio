@@ -23,7 +23,7 @@
 
     --bs-btn-bg:var(--bs-primary);
     --bs-btn-border-color: var(--bs-primary);
-    --bs-btn-hover-bg: var(--bs-primary);
+    --bs-btn-hover-bg: transparent;
     --bs-btn-hover-border-color: var(--bs-primary);
     --bs-btn-active-bg: var(--bs-primary);
     --bs-btn-active-border-color: var(--bs-primary);
@@ -82,7 +82,7 @@ a {
 
 a:hover {
     text-decoration: underline;
-    font-weight:bold;
+    letter-spacing: 0.15rem;
 }
 
 
