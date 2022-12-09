@@ -52,13 +52,24 @@
 
         <div class="col-md-6">
           <div class="card border-0 rounded-1">
-            <img src="images/hachi-thumbnail.png" alt="Test">
+           <!--Responsive images for thumbnail-->
+            <picture>
+              <source srcset="images/hachi-thumbnail-745_x_348.jpg,
+              images/hachi-thumbnail-1490_x_696.jpg 2x"
+              media="(max-width:768px)">
+
+              <source srcset="images/hachi-thumbnail-546_x_348.jpg,
+              images/hachi-thumbnail-1092_x_696.jpg 2x"
+              media="(max-width:1200px)">
+              <img src="images/hachi-thumbnail-1092_x_696.jpg" class="img-fluid rounded-2" alt="Thumbnail image of logo created for Viali brand">
+            </picture>
+
             <div class="info">
               <div class=" bg-dark text-light opacity-50 card-img-overlay p-5">
-                <h3>Texto</h3>
+                <h3>Hachi</h3>
                 <div class="tags">
-                  <span class="badge text-bg-light rounded-4">Categories</span>
-                  <span class="badge text-bg-light rounded-4">Categories</span>
+                  <span class="badge text-bg-light rounded-4">Brand design</span>
+                  <span class="badge text-bg-light rounded-4">Graphic design</span>
                 </div>
               </div>
             </div>
@@ -67,13 +78,24 @@
 
         <div class="col-md-6">
           <div class="card border-0 rounded-1">
-            <img src="images/hachi-thumbnail.png" alt="Test">
+            <!--Responsive images for thumbnail-->
+            <picture>
+              <source srcset="images/viali-thumbnail-745_x_348.png,
+              images/viali-thumbnail-1490_x_696.png 2x"
+              media="(max-width:768px)">
+
+              <source srcset="images/viali-thumbnail-546_x_348.png,
+              images/viali-thumbnail-1092_x_696.png 2x"
+              media="(max-width:1200px)">
+              <img src="images/viali-thumbnail-1092_x_696.png" class="img-fluid rounded-2" alt="Thumbnail image of logo created for Viali brand">
+            </picture>
+
             <div class="info">
               <div class=" bg-dark text-light opacity-50 card-img-overlay p-5">
-                <h3>Texto</h3>
+                <h3>Viali</h3>
                 <div class="tags">
-                  <span class="badge text-bg-light rounded-4">Categories</span>
-                  <span class="badge text-bg-light rounded-4">Categories</span>
+                  <span class="badge text-bg-light rounded-4">Brand Design</span>
+                  <span class="badge text-bg-light rounded-4">Product Label design</span>
                 </div>
               </div>
             </div>
@@ -82,13 +104,70 @@
 
         <div class="col-md-6">
           <div class="card inner-border-radius-0 border-0 rounded-1">
-            <img src="images/hachi-thumbnail.png" alt="Test">
+            <picture>
+              <source srcset="images/handbook-745_x_348.png,
+              images/handbook-1490_x_696.png 2x"
+              media="(max-width:768px)">
+
+              <source srcset="images/handbook-546_x_348.png,
+              images/handbook-1092_x_696.png 2x"
+              media="(max-width:1200px)">
+              <img src="images/handbook-1092_x_696.png" class="img-fluid rounded-2" alt="Thumbnail image of mockup of handbook held by a person">
+            </picture>
             <div class="info">
               <div class=" bg-dark text-light opacity-50 card-img-overlay p-5">
-                <h3>Texto</h3>
+                <h3>Handbook</h3>
                 <div class="tags">
-                  <span class="badge text-bg-light rounded-4">Categories</span>
-                  <span class="badge text-bg-light rounded-4">Categories</span>
+                  <span class="badge text-bg-light rounded-4">Graphic design</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!--Closes card-->
+
+        <div class="col-md-6">
+          <div class="card border-0 rounded-1">
+            <!--Responsive images for thumbnail-->
+            <picture>
+              <source srcset="images/content-745_x_348.png,
+              images/content-1490_x_696.png 2x"
+              media="(max-width:768px)">
+
+              <source srcset="images/content-546_x_348.png,
+              images/content-1092_x_696.png 2x"
+              media="(max-width:1200px)">
+              <img src="images/content-1092_x_696.png" class="img-fluid rounded-2" alt="Thumbnail image of mockup of laptop with program design">
+            </picture>
+
+            <div class="info">
+              <div class=" bg-dark text-light opacity-50 card-img-overlay p-5">
+                <h3>Content for PECP</h3>
+                <div class="tags">
+                  <span class="badge text-bg-light rounded-4">Graphic Design</span>
+                  <span class="badge text-bg-light rounded-4">Editorial design</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!--Closes card-->
+
+        <div class="col-md-6">
+          <div class="card inner-border-radius-0 border-0 rounded-1">
+            <picture>
+              <source srcset="images/flyer-745_x_348.png,
+              images/flyer-1490_x_696.png 2x"
+              media="(max-width:768px)">
+
+              <source srcset="images/flyer-546_x_348.png,
+              images/flyer-1092_x_696.png 2x"
+              media="(max-width:1200px)">
+              <img src="images/flyer-1092_x_696.png" class="img-fluid rounded-2" alt="Thumbnail image of mockup of flyer">
+            </picture>
+            <div class="info">
+              <div class=" bg-dark text-light opacity-50 card-img-overlay p-5">
+                <h3>Flyer</h3>
+                <div class="tags">
+                  <span class="badge text-bg-light rounded-4">Graphic design</span>
                 </div>
               </div>
             </div>
@@ -100,15 +179,15 @@
 
   
 
-    <footer class="container-xl mt-5 mb-1 position-fixed bottom-0">
+    <footer class="container-xl mt-5 mb-1 justify-content-between">
       <div class="d-flex flex-row justify-content-between align-items-end">
           <div>
               <p>&copy; 2022. <br>Daniela Cifuentes</p>
           </div>
           <div class="d-flex flex-column align-items-end">
-              <a class="link-secondary text-decoration-none" href="behance.com/danielacav"> <i class="fa-brands fa-behance"></i></a>
-              <a class="link-secondary text-decoration-none" href="linkedin.com/danielacav"> <i class="fa-brands fa-linkedin-in"></i></a>
-              <a class="link-secondary text-decoration-none" href="#"> <i class="fa-solid fa-envelope"></i> <span class="small"></span></a>
+              <a class="link-secondary text-decoration-none" href="https://www.behance.net/danielacav_"> <i class="fa-brands fa-behance"></i></a>
+              <a class="link-secondary text-decoration-none" href="https://www.linkedin.com/in/danielacav/"> <i class="fa-brands fa-linkedin-in"></i></a>
+              <a class="link-secondary text-decoration-none" href="contact.html"> <i class="fa-solid fa-envelope"></i> <span class="small"></span></a>
               <div class="d-none d-md-block text-secondary">
                   <p class="small">Feel free to message me through any of my social platforms!</p>
               </div>
